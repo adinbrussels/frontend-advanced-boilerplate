@@ -1,0 +1,11 @@
+
+<h1>Flats</h1>
+
+<!--- <%= data.flats %> -->
+
+
+<ol>
+  <% data.flats.each do |key, value| %>
+  <li><%= "#{value.owner_name} habite à #{value.city}" %></li>
+  <% end %>
+</ol>
